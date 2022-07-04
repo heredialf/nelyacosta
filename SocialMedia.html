@@ -87,7 +87,7 @@ YII_CSRF_TOKEN='8d356142d33bc00032d11cc65da9fc29e6231583';
     <!-- ngRepeat: channel in view.code.channels track by $index --><a ng-href="https://www.facebook.com/nelyhelena.acostacarrillo/" target="_blank" class="channel-container ng-scope" id="channel-item-Facebook" ng-click="loadDemo ? callAction($event,&#39;channelAction&#39;) : &#39;&#39;" ng-repeat="channel in view.code.channels track by $index" href="https://www.facebook.com/nelyhelena.acostacarrillo/">
         <div class="table-cell-middle1 pl-55 pos-relative">
             <div class="channel-bgd-facebook" ng-style="{top: channel.label ? &#39;calc(50% - 20px)&#39; : &#39;calc(50% - 15px)&#39;}" style="top: calc(50% - 20px);">
-                <!-- ngIf: channel.name != 'Snapchat' --><i ng-if="channel.name != &#39;Snapchat&#39;" class="icon-social-facebook"></i><!-- end ngIf: channel.name != 'Snapchat' -->
+                <i ng-if="channel.name != &#39;Snapchat&#39;" class="icon-social-facebook"></i>
                 <!-- ngIf: channel.name == 'Snapchat' -->
             </div>
             <div class="channel-prop-container" ng-class="{&#39;pull-left&#39;: channel.link &amp;&amp; channel.label &amp;&amp; channel.name == &#39;Website&#39;, &#39;pull-left mt-101 height-301&#39;: channel.link &amp;&amp; !channel.label &amp;&amp; channel.name == &#39;Website&#39;, &#39;pt-10&#39;: !channel.label}">
