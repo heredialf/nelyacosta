@@ -18,11 +18,11 @@ window.addEventListener('DOMContentLoaded', () => {
                     span.classList.add('fade');
                 }, (span +1) * 50);
             });
-        }, 2000);
+        }, 4000);
 
         setTimeout(() => {
             intro.style.top = '-100vh';
-        }, 2300);
+        }, 4600);
 
     });
 });

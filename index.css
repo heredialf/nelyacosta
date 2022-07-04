@@ -54,13 +54,13 @@ html {
 .logo-parts.active {
     bottom: 0;
     opacity: 1;
-    transition: ease-in-out .5s;
+    transition: ease-in-out 1s;
 }
 
 .logo-parts.fade {
     bottom: 250px;
     opacity: 0;
-    transition: ease-in-out .5s;
+    transition: ease-in-out 1s;
 }
 
 .content {
